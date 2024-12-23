@@ -1,0 +1,19 @@
+{
+  // "references": [
+  //   {
+  //     "path": "./tsconfig.node.json"
+  //   },
+  //   {
+  //     "path": "./tsconfig.app.json"
+  //   },
+  //   {
+  //     "path": "./tsconfig.cypress-ct.json"
+  //   }
+  // ],
+  "compilerOptions": {
+    "strict": true,
+    "types": ["vite/client"], // Or other relevant types for your project
+    "jsx": "preserve"
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+}
